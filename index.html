@@ -49,7 +49,7 @@
   </script>
 
   <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="/images/favicon.svg">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <!-- Fonts -->
@@ -414,7 +414,7 @@
             <a href="https://wise.com/pay/r/UfIxovxx234_boI" class="btn btn--primary" target="_blank"
               onclick="abrirModalConfirmacao()">Pagar ahora <span><img src="https://cdn.simpleicons.org/wise/F5F5F5" alt="Wise" width="24" height="24"></span></a>
 
-            <a href="https://nubank.com.br/cobranca/p1ZFTS1cXj2wsb4q" class="btn btn--primary" target="_blank"
+            <a href="https://nubank.com.br/cobranca/my5bzIQ5Ej2wsb4q" class="btn btn--primary" target="_blank"
               onclick="abrirModalConfirmacao()">Pagar ahora <span><img src="https://cdn.simpleicons.org/nubank/F5F5F5" alt="Nubank" width="24" height="24"></span></a>
             </div>
             
@@ -426,7 +426,7 @@
               <a href="https://wise.com/pay/r/i1pGY9ULZzp6MOY" class="btn btn--primary" target="_blank"
                 onclick="abrirModalConfirmacao()">Pagar ahora <span><img src="https://cdn.simpleicons.org/wise/F5F5F5" alt="Wise" width="24" height="24"></span></a>
 
-              <a href="https://nubank.com.br/cobranca/my5bzIQ5Ej2wsb4q" class="btn btn--primary" target="_blank"
+              <a href="https://nubank.com.br/cobranca/p1ZFTS1cXj2wsb4q" class="btn btn--primary" target="_blank"
                 onclick="abrirModalConfirmacao()">Pagar ahora <span><img src="https://cdn.simpleicons.org/nubank/F5F5F5" alt="Nubank" width="24" height="24"></span></a>
             
           </div>
@@ -436,11 +436,11 @@
       </div>
 
       <div id="modalConfirmacao" class="modal-overlay">
-        <div class="modal-content">
+        <div class="modal-content" id="confirm-modal">
           <h3>¡Libera tu acceso!</h3>
           <p>Después de realizar el pago, envía el comprobante para solicitar tu acceso.</p>
 
-          <a href="https://wa.me/5491112345678" target="_blank" class="btn btn--primary">
+          <a href="https://wa.me/5491112345678" target="_blank" class="btn btn--primary" id="btn-confirm">
             Enviar comprobante por WhatsApp
           </a>
 
@@ -462,7 +462,7 @@
         <p class="footer__brand-tagline">Acompañar procesos que transforman,<br>desde el agua, el sistema y el corazón.
         </p>
         <div class="footer__social">
-          <a href="https://wa.me/5491112345678" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <a href="https://wa.me/5196704735" target="_blank" rel="noopener" aria-label="WhatsApp">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <path
                 d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.36a9.83 9.83 0 0 0 4.62 1.18h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.1c-.24.68-1.4 1.3-1.93 1.35-.5.05-1.02.24-3.44-.72-2.9-1.15-4.77-4.1-4.92-4.29-.14-.19-1.17-1.56-1.17-2.97 0-1.42.74-2.11 1-2.4.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.12.57.17.29.75 1.24 1.62 2 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.92-1.13.19-.29.38-.24.64-.14.26.1 1.66.78 1.94.93.29.14.48.21.55.33.07.12.07.68-.17 1.36Z" />

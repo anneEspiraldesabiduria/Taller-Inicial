@@ -239,6 +239,13 @@ h1, h2, h3 {
 .btn:hover .arrow { transform: translateX(3px); }
 .btn:hover .arrow-down { transform: translateY(3px); }
 
+#btn-confirm {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+}
+
 /* ==========================================================================
    HERO
    ========================================================================== */
@@ -672,6 +679,11 @@ h1, h2, h3 {
 
 .btn-close { background: none; border: none; margin-top: 1rem; cursor: pointer; text-decoration: underline; }
 
+
+#confirm-modal {
+  display: flex;
+  flex-direction: column;
+}
 
 /* ==========================================================================
    FOOTER
